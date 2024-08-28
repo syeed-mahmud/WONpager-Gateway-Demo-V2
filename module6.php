@@ -33,10 +33,11 @@ $username = $_SESSION['user_name'];
 </head>
 <body>
   <div class="container text-center">
-  <a href="logout.php" class="logout-btn btn btn-danger">Logout</a>
+  <a href="selection.php" class="logout-btn btn btn-danger">Back</a>
     <h1 class="mt-5">Logged In : <?php echo htmlspecialchars($username) ?></h1>
     <div class="content-box mx-auto mt-5">
-      <p>This is the Content of Module 6</p>
+      <p>This is the Content of Module</p>
+      <h2>Diagnosis and Imperatives</h2>
     </div>
   </div>
 
