@@ -83,6 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <style>
         body {
             background-image: url('images/bg image.jpg');
+            background-color: aquamarine;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -91,6 +92,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         .custom-button:hover {
             background-color: #00233F;
             border-color: #00233F;
+        }
+
+        .custom-logo{
+            background-color: antiquewhite;
         }
 
         .logout-btn {
@@ -105,8 +110,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="row mt-5">
             <div class="col-md-12 text-center">
             <a href="logout.php" class="logout-btn btn btn-danger">Logout</a>
-                <img src="images/logo image.png" alt="Wonpager Logo" class="img-fluid" width="250">
-                <h1 class="display-4 mt-4" style="font-weight: bold; color: #00233F;">Module Library</h1>
+                <img src="images/logo image.png" alt="Wonpager Logo" class="img-fluid custom-logo" width="250">
+                <h1 class="display-4 mt-4" style="font-weight: bold; color: #00233F;">Library of WONpager Modules</h1>
             </div>
         </div>
 
@@ -116,7 +121,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="card">
                         <div class="card-body d-flex align-items-center">
                             <button type="submit" name="module" value="module1" class="btn btn-secondary btn-lg custom-button">Select Module #1</button>
-                            <h2 class="ms-3 mb-0">Strategy Clarification on WONpage</h2>
+                            <h2 class="ms-3 mb-0">Strategy Clarification on 1 page</h2>
                         </div>
                     </div>
                     <div class="card mt-4">
@@ -128,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="card mt-4">
                         <div class="card-body d-flex align-items-center">
                             <button type="submit" name="module" value="module3" class="btn btn-secondary btn-lg custom-button">Select Module #3</button>
-                            <h2 class="ms-3 mb-0">Executives Empowerment for Individual.</h2>
+                            <h2 class="ms-3 mb-0">Executive Empowerment for Individuals</h2>
                         </div>
                     </div>
                     <div class="card mt-4">
@@ -140,13 +145,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="card mt-4">
                         <div class="card-body d-flex align-items-center">
                             <button type="submit" name="module" value="module5" class="btn btn-secondary btn-lg custom-button">Select Module #5</button>
-                            <h2 class="ms-3 mb-0">Executive Coaching and Development</h2>
+                            <h2 class="ms-3 mb-0">Executive Coaching and Leadership Development</h2>
                         </div>
                     </div>
                     <div class="card mt-4 mb-5">
                         <div class="card-body d-flex align-items-center">
                             <button type="submit" name="module" value="module6" class="btn btn-secondary btn-lg custom-button">Select Module #6</button>
-                            <h2 class="ms-3 mb-0">Diagnosis and Imperatives</h2>
+                            <h2 class="ms-3 mb-0">Diagnostics and Imperatives to address</h2>
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ $username = $_SESSION['user_name'];
     <h1 class="mt-5">Logged In : <?php echo htmlspecialchars($username) ?></h1>
     <div class="content-box mx-auto mt-5">
       <p>This is the Content of Module</p>
-      <h2>Executive Coaching and Development</h2>
+      <h2>Executive Coaching and Leadership Development</h2>
     </div>
   </div>
 
